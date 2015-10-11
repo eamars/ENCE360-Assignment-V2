@@ -1,0 +1,10 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BUF_SIZE	/home/eamars/Workspace/assignment_2015/src/http.c	/^#define BUF_SIZE /;"	macro	line:12	file:
+http_query	/home/eamars/Workspace/assignment_2015/src/http.c	/^Buffer* http_query(char *host, char *page, int port) {$/;"	function	line:16	signature:(char *host, char *page, int port)
+http_get_content	/home/eamars/Workspace/assignment_2015/src/http.c	/^char* http_get_content(Buffer *response) {$/;"	function	line:27	signature:(Buffer *response)
+http_url	/home/eamars/Workspace/assignment_2015/src/http.c	/^Buffer *http_url(const char *url) {$/;"	function	line:39	signature:(const char *url)

@@ -1,0 +1,42 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+handle_error_en	/home/eamars/Workspace/assignment_2015/src/queue.c	/^#define handle_error_en(/;"	macro	line:11	file:
+handle_error	/home/eamars/Workspace/assignment_2015/src/queue.c	/^#define handle_error(/;"	macro	line:14	file:
+QueueStruct	/home/eamars/Workspace/assignment_2015/src/queue.c	/^typedef struct QueueStruct {$/;"	struct	line:17	file:
+Queue	/home/eamars/Workspace/assignment_2015/src/queue.c	/^} Queue;$/;"	typedef	line:20	typeref:struct:QueueStruct	file:
+queue_alloc	/home/eamars/Workspace/assignment_2015/src/queue.c	/^Queue *queue_alloc(int size) {$/;"	function	line:23	signature:(int size)
+queue_free	/home/eamars/Workspace/assignment_2015/src/queue.c	/^void queue_free(Queue *queue) {$/;"	function	line:28	signature:(Queue *queue)
+queue_put	/home/eamars/Workspace/assignment_2015/src/queue.c	/^void queue_put(Queue *queue, void *item) {$/;"	function	line:33	signature:(Queue *queue, void *item)
+queue_put2	/home/eamars/Workspace/assignment_2015/src/queue.c	/^void queue_put2(Queue *queue, void *item) {$/;"	function	line:39	signature:(Queue *queue, void *item)
+queue_get	/home/eamars/Workspace/assignment_2015/src/queue.c	/^void *queue_get(Queue *queue) {$/;"	function	line:47	signature:(Queue *queue)
+HTTP_H	/home/eamars/Workspace/assignment_2015/src/http.h	/^#define HTTP_H$/;"	macro	line:2
+data	/home/eamars/Workspace/assignment_2015/src/http.h	/^  char *data;$/;"	member	line:25	struct:__anon1
+length	/home/eamars/Workspace/assignment_2015/src/http.h	/^  size_t length;$/;"	member	line:26	struct:__anon1
+Buffer	/home/eamars/Workspace/assignment_2015/src/http.h	/^} Buffer;$/;"	typedef	line:28	typeref:struct:__anon1
+QUEUE_H	/home/eamars/Workspace/assignment_2015/src/queue.h	/^#define QUEUE_H$/;"	macro	line:2
+Queue	/home/eamars/Workspace/assignment_2015/src/queue.h	/^typedef struct QueueStruct Queue;$/;"	typedef	line:11	typeref:struct:QueueStruct
+BUF_SIZE	/home/eamars/Workspace/assignment_2015/src/http.c	/^#define BUF_SIZE /;"	macro	line:12	file:
+http_query	/home/eamars/Workspace/assignment_2015/src/http.c	/^Buffer* http_query(char *host, char *page, int port) {$/;"	function	line:16	signature:(char *host, char *page, int port)
+http_get_content	/home/eamars/Workspace/assignment_2015/src/http.c	/^char* http_get_content(Buffer *response) {$/;"	function	line:23	signature:(Buffer *response)
+http_url	/home/eamars/Workspace/assignment_2015/src/http.c	/^Buffer *http_url(const char *url) {$/;"	function	line:35	signature:(const char *url)
+FILE_SIZE	/home/eamars/Workspace/assignment_2015/src/downloader.c	/^#define FILE_SIZE /;"	macro	line:13	file:
+create_directory	/home/eamars/Workspace/assignment_2015/src/downloader.c	/^void create_directory(const char *dir) {$/;"	function	line:17	signature:(const char *dir)
+url	/home/eamars/Workspace/assignment_2015/src/downloader.c	/^  char *url;$/;"	member	line:30	struct:__anon2	file:
+result	/home/eamars/Workspace/assignment_2015/src/downloader.c	/^  Buffer *result;$/;"	member	line:31	struct:__anon2	file:
+Task	/home/eamars/Workspace/assignment_2015/src/downloader.c	/^}  Task;$/;"	typedef	line:32	typeref:struct:__anon2	file:
+todo	/home/eamars/Workspace/assignment_2015/src/downloader.c	/^  Queue *todo;$/;"	member	line:36	struct:__anon3	file:
+done	/home/eamars/Workspace/assignment_2015/src/downloader.c	/^  Queue *done;$/;"	member	line:37	struct:__anon3	file:
+threads	/home/eamars/Workspace/assignment_2015/src/downloader.c	/^  pthread_t *threads;$/;"	member	line:39	struct:__anon3	file:
+num_workers	/home/eamars/Workspace/assignment_2015/src/downloader.c	/^  int num_workers;$/;"	member	line:40	struct:__anon3	file:
+Context	/home/eamars/Workspace/assignment_2015/src/downloader.c	/^} Context;$/;"	typedef	line:42	typeref:struct:__anon3	file:
+worker_thread	/home/eamars/Workspace/assignment_2015/src/downloader.c	/^void *worker_thread(void *arg) {$/;"	function	line:50	signature:(void *arg)
+spawn_workers	/home/eamars/Workspace/assignment_2015/src/downloader.c	/^Context *spawn_workers(int num_workers) {$/;"	function	line:66	signature:(int num_workers)
+free_workers	/home/eamars/Workspace/assignment_2015/src/downloader.c	/^void free_workers(Context *context) {$/;"	function	line:87	signature:(Context *context)
+new_task	/home/eamars/Workspace/assignment_2015/src/downloader.c	/^Task *new_task(char *url) {$/;"	function	line:111	signature:(char *url)
+free_task	/home/eamars/Workspace/assignment_2015/src/downloader.c	/^void free_task(Task *task) {$/;"	function	line:121	signature:(Task *task)
+wait_task	/home/eamars/Workspace/assignment_2015/src/downloader.c	/^void wait_task(const char *download_dir, Context *context) {$/;"	function	line:133	signature:(const char *download_dir, Context *context)
+main	/home/eamars/Workspace/assignment_2015/src/downloader.c	/^int main(int argc, char **argv) {$/;"	function	line:178	signature:(int argc, char **argv)
