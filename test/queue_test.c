@@ -70,6 +70,7 @@ int main(int argc, char **argv) {
 
 
   printf("total sum: %d, expected sum: %d\n", (int)sum, expected);
+  queue_free(queue);
 
   return 0;
 }

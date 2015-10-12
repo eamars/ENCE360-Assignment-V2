@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+
+<html><!-- InstanceBegin template="/Templates/simple.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<link href="http://www.canterbury.ac.nz/brand/red/css/wt-layout2.css" rel="stylesheet" type="text/css" />
+<link href="http://www.canterbury.ac.nz/brand/red/css/wt-college.css" rel="stylesheet" type="text/css" />
+<link href="../../../css/site.css" rel="stylesheet" type="text/css" /> 
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+<script src="//static.canterbury.ac.nz/web/scripts/jquery/jquery/jquery-1.8.0.min.js" type="text/javascript"></script>
+<script src="//static.canterbury.ac.nz/web/scripts/jquery/ui/js/jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script>
+<script src="//static.canterbury.ac.nz/web/scripts/jquery/dropmenu/jquery.dropmenu.js" type="text/javascript"></script>
+<script src="//static.canterbury.ac.nz/web/scripts/jquery/accordion/scriptbreaker-multiple-accordion.js" type="text/javascript"></script>
+<script src="//static.canterbury.ac.nz/web/scripts/jquery/prettyPhoto/jquery.prettyPhoto.js" type="text/javascript"></script>
+<script src="//static.canterbury.ac.nz/web/scripts/jquery/nivo/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+<script src="//static.canterbury.ac.nz/web/scripts/jquery/bxslider/jquery.bxSlider.min4.js" type="text/javascript"></script>
+<script src="//static.canterbury.ac.nz/web/scripts/jquery/rsv/jquery.rsv-2.5.1.js" type="text/javascript"></script>
+<script src="//static.canterbury.ac.nz/web/scripts/uc/custom2.js?v=2" type="text/javascript"></script>
+<script src="/UrchinScripts/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">
+  urchinTracker(); 
+</script>
+
+
+
+<!-- InstanceBeginEditable name="head" --><title>Postgraduate Students Frequently-asked Questions - Computer Science and Software Engineering - University of Canterbury - New Zealand</title>
+<!-- InstanceEndEditable -->
+
+<!-- InstanceParam name="onload" type="text" value="" -->
+<!-- InstanceBeginEditable name="lang" -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceEndEditable -->
+
+
+
+</head>
+<body onload="">
+<div id="maincontainer">
+
+<div id="topsection">
+<div id="topnav">
+
+
+<form action="http://www.canterbury.ac.nz/search" method="get" id="googleform">
+ <input name="q" type="text" id="q" tabindex="1"/>
+ <input name="search" type="image" value="search" src="//static.canterbury.ac.nz/web/icons/general/search-icon.png" alt="Search" id="sb" />
+</form>
+
+<ul id="nav-one" class="dropmenu css-only"> 
+
+			<li> 
+
+				<a href="http://www.canterbury.ac.nz" id="homelink"></a> 
+
+			</li> 
+
+			<li > 
+
+				
+                <a href="#">Study</a> 
+
+				<ul> 
+
+					<li><a href="http://www.canterbury.ac.nz/whyuc">Why UC</a></li>
+					<li><a href="http://www.canterbury.ac.nz/admissions">Admissions and Entry</a></li>
+					<li><a href="http://www.canterbury.ac.nz/future-students/qualifications-and-courses/">Courses, Subjects and<br/>Qualifications</a></li>
+					<li><a href="http://www.canterbury.ac.nz/enrol">Enrol at UC</a></li>
+					<li><a href="http://myuc.canterbury.ac.nz">myUC</a></li>
+					<li><a href="http://www.canterbury.ac.nz/scholarships">Scholarships</a></li>
+					<li><a href="http://learn.canterbury.ac.nz">Learn (Moodle)</a></li>
+					<li><a href="http://library.canterbury.ac.nz">Library</a></li>
+					<li><a href="http://www.canterbury.ac.nz/publications">Publications</a></li>
+
+				</ul> 
+
+			</li> 
+
+			<li> 
+
+				<a href="#">Courses</a> 
+
+				<ul> 
+
+					<li><a href="http://www.canterbury.ac.nz/future-students/qualifications-and-courses/">Courses, Subjects and<br/>Qualifications</a></li>
+					<li><a href="http://www.canterbury.ac.nz/future-students/qualifications-and-courses/subjects/">Subject list A-Z</a></li>
+					                    <li><a href="http://www.canterbury.ac.nz/future-students/qualifications-and-courses/bachelors-degrees/">Bachelor's degrees</a></li>
+					<li><a href="http://www.canterbury.ac.nz/theuni/timetable">Timetable</a></li>
+					<li><a href="http://www.canterbury.ac.nz/future-students/qualifications-and-courses/preparatory-programmes/">Preparation courses</a></li>
+			</ul> 
+
+			</li>  
+
+			<li class='open'> 
+
+				<a href="#">Departments</a> <!-- deal with this class properly in php -->
+					<ul> 
+
+ 						<li><a href="http://www.canterbury.ac.nz/deptcentres.shtml">All Departments</a></li>
+						<li><a href="http://www.arts.canterbury.ac.nz">College of Arts</a></li>
+						<li><a href="http://www.buslaw.canterbury.ac.nz">College of Business and Law</a></li>
+						<li><a href="http://www.bsec.canterbury.ac.nz">School of Business and Economics</a></li>
+    					<li><a href="http://www.education.canterbury.ac.nz">College of Education, Health and Human Development</a></li>
+						<li><a href="http://www.engf.canterbury.ac.nz">College of Engineering</a></li>
+						<li><a href="http://www.health.canterbury.ac.nz">UC Health</a></li>
+						<li><a href="http://www.laws.canterbury.ac.nz">School of Law</a></li>
+						<li><a href="http://www.science.canterbury.ac.nz">College of Science</a></li>
+						<li><a href="http://www.canterbury.ac.nz/deptcentres.shtml#service">Service Areas</a></li>
+					</ul>
+			</li>
+            
+			<li> 
+				<a href="#">Students</a> 
+
+				<ul> 
+					<li><a href="http://www.canterbury.ac.nz/future-students">Future Students</a></li>
+					<li><a href="http://www.canterbury.ac.nz/international">International Students</a></li>
+					<li><a href="http://www.canterbury.ac.nz/postgrad">Postgraduate Students</a></li>
+					<li><a href="http://www.canterbury.ac.nz/currentstudents">Current Students</a></li>
+				</ul> 
+
+			</li>	
+            
+            <li> 
+				<a href="#">Research</a> 
+
+				<ul> 
+					<li><a href="http://www.research.canterbury.ac.nz">Research & Innovation</a></li>
+					<li><a href="http://www.canterbury.ac.nz/spark">Find an expert in UC SPARK</a></li>
+					<li><a href="http://www.research.canterbury.ac.nz/rescentres.shtml">Research Institutes and Research Centres</a></li>
+					<li><a href="http://www.canterbury.ac.nz/postgrad">Postgraduate Studies at UC</a></li>
+					<li><a href="http://www.nzi3.com">NZi3 National ICT Innovation Institute</a></li>
+					<li><a href="http://www.hpc.canterbury.ac.nz/?s=home">UC High Performace Computing</a></li>
+					<li><a href="http://library.canterbury.ac.nz">Library</a></li>
+				</ul> 
+
+			</li>	
+            
+            <li> 
+				<a href="#">Teaching</a> 
+
+				<ul> 
+					<li><a href="http://www.teachlearn.canterbury.ac.nz">Learning and Teaching</a></li>
+					<li><a href="http://library.canterbury.ac.nz">Library</a></li>
+					<li><a href="http://www.canterbury.ac.nz/academicservices/awards/awards.shtml">UC Teaching Awards</a></li>
+					<li> <a href=" http://www.canterbury.ac.nz/theuni/key_dates">Key Dates</a> </li>
+					<li><a href="http://learn.canterbury.ac.nz">Learn (Moodle)</a></li>
+				</ul> 
+
+			</li>
+            
+            <li> 
+				<a href="#">Contact</a> 
+
+				<ul> 
+					<li><a href="http://www.canterbury.ac.nz/theuni/contacts/DirectorySearch.aspx">All University Contacts</a></li>
+					<!--li><a href="http://www.canterbury.ac.nz/theuni/contacts/contactservices.shtml">Student Contacts</a></li-->
+					<li><a href="http://www.comsdev.canterbury.ac.nz/media.shtml">Media Contacts</a></li>
+					<li><a href="http://www.canterbury.ac.nz/theuni/contacts/contactofficers.shtml">University Officers</a></li>
+					<li><a href="http://www.canterbury.ac.nz/liaison">Liaison </a></li>   
+				</ul> 
+
+			</li>
+      
+            	
+
+		</ul> 
+        
+       
+
+</div>
+</div>
+<div id="bannersection"><img src="http://www.canterbury.ac.nz/brand/red/graphics/blank.png" id="printlogo" alt="logo"/>
+  <div id="banner">
+    
+    <div id="sitetitle"><div id="top"><h2>Computer Science and Software Engineering </h2></div></div>
+</div>
+</div>
+
+
+
+<div id="contentwrapper">
+<div id="breadcrumbs"> <a href="http://www.canterbury.ac.nz/" accesskey="/"><acronym title="University of Canterbury">UC</acronym> Home</a> &gt;<a href="http://www.canterbury.ac.nz/deptcentres.shtml"> Departments</a> &gt; <a href="http://www.engf.canterbury.ac.nz/">College of Engineering</a> &gt; <a href="/" accesskey="1">Computer Science and Software Engineering</a>&nbsp;&nbsp;</div>
+
+
+<div id="leftcolumn">
+  <div class="arrowlistmenu">
+
+<h3>Study</h3>
+
+<ul class="categoryitems">
+
+
+        <li><a title="CSSE Courses" href="/courses/">Courses</a></li>
+        <li><a title="CSSE Course Advice" href="/students/advice.shtml">Course Advice</a></li>
+        <li><a title="CSSE Grants and Scholarships available" href="/students/awards.shtml">Grants and Scholarships</a></li>
+      </ul>
+      <h3>For</h3>
+    <ul class="categoryitems">
+        <li><a href="/students/intending/">Prospective Students</a></li>
+        <li><a href="/students/undergrad.shtml">Undergraduate Students</a></li>
+        <li><a href="/students/postgrad.shtml">Postgraduate Students</a></li>
+        <li><a href="/dept/viscom.shtml">Visitors and Community</a></li>
+      </ul>
+      <h3>About</h3>
+ <ul class="categoryitems">
+        <li><a title="Welcome to the Department of Computer Science and Software Engineering" href="/dept/dept.shtml">Computer Science and Software Engineering </a> </li>
+        <li><a title="CSSE Contacts" href="/dept/contact.shtml">Contacts</a> </li>
+        <li><a title="CSSE academic staff, visiting academics, general staff, postgraduates and vacancies" href="/people/">People</a></li>
+        <li><a title="CSSE Research areas" href="/research/">Research</a></li>
+	<li><a title="CSSE software resources" href="/resources/">Resources</a></li>
+        <li><a title="Details of seminars, open to everyone" href="/seminars/">Seminars</a> </li>
+        <li><a title="Details of conferences hosted by the Computer Science and Software Engineering Department" href="/conferences/">Conferences</a></li>
+		<li><a title="Occupational Safety and Health (OSH)" href="/policy/health+safety/">Occupational Safety and Health (OSH)</a></li>
+        <li><a title="How to get help in CSSE" href="/help/">Help!</a> </li>
+      </ul>
+</div>
+
+</div> 
+<div id="contentcolumnsection">
+<div id="contentcolumn">
+
+<div id="related"><!-- InstanceBeginEditable name="Related Links" --> <!-- InstanceEndEditable --></div>
+<div id="thirdColumn"><!-- InstanceBeginEditable name="Third Column" --><!-- InstanceEndEditable --></div>
+
+
+
+<div id="content">
+  
+  <!-- InstanceBeginEditable name="Body" -->
+  <h1>Postgraduate Students Frequently-asked Questions</h1>
+  <p>
+      The following is a list of questions and answers you may find helpful when considering postgraduate study in Computer Science. If you have a question that is not covered here, please feel free to contact our Postgraduate Studies Coordinator, <a href="mailto:postgrad-coordinator@cosc.canterbury.ac.nz">postgrad-coordinator@cosc.canterbury.ac.nz</a>.</p>
+   
+  <h3>What sort of skills do I need to complete course work successfully?</h3>
+   
+  <p>The ability to communicate well in English is essential as the medium of instruction of the university is English. Both oral and writing skills are important. You will be asked to give presentations. Also, the ability to write technical documents will be quite helpful, as you are expected to write research papers and critical reviews of research papers.</p>
+   
+  <p>Even though you have the option of having Windows or Linux on a computer provided by the department, a good knowledge of Linux is quite useful, as some work can only be done under Linux.</p>
+   
+  <p>Good time management skills and willingness to work hard are important.</p>
+   
+  <h3>What sort of skills do I need to complete research successfully?</h3>
+   
+  <p>Research requires different skills from the ones you used in your undergraduate courses. You need to be able to critically reflect on a research area, the work of other people, and also your own work. For research, it is necessary to be able to identify important problems to be solved, and be able to develop novel solutions to them. You will also need to evaluate your work. This means you would need to put your work into context and present well reasoned arguments on topics that may not always have ‚Äúright‚Äù or ‚Äúwrong‚Äù answers.</p>
+   
+  <p>If you have not done any research previously, you should get hold of any book on research methods. Help is, of course, available‚Äîyour supervisor and other staff will help where clarifications are needed.</p>
+   
+  <h3>I have plans to come in July and start course work. Is it going to be a problem?</h3>
+   
+  <p>Technically no, as all the 400-level courses are one-semester courses. However, most of your classmates would have finished a half of the course work by the beginning of the second semester, and they might have more experience about course work than you. Also, you might have some difficulties when you need to apply for scholarships, etc. as the normal academic cycle of Canterbury goes from February to November. Furthermore, there is a ‚Äòsurvival course‚Äô at the beginning of the year, which introduces the system and the basic skills you will need. If you start your studies in the second half, you will not be able to take advantage of that course.</p>
+   
+  <h3>What are the facilities provided by the department?</h3>
+   
+  <p>You get your own computer and desk. You have access to a tea room, and free coffee. You have access to the library of the university.</p>
+   
+  <p>The department also provides funds to assist you to attend conferences; these are generally sufficient for most postgraduates to attend an international conference during their study.</p>
+   
+  <h3>Will it be useful if I come about 1-2 weeks before lectures start?</h3>
+   
+  <p>It will useful if you can come and sort out your work space and be familiar with the surroundings. Then you will have enough time to adapt yourself to the environment and start course work smoothly.</p>
+   
+  <h3>To whom should I talk when I come to the department?</h3>
+   
+  <p>You need to make an appointment with the head of department. You will also need to talk to the departmental postgraduate students coordinator.</p>
+   
+  <h3>What is the assessment system at Canterbury like?</h3>
+   
+  <p>The assessment varies between courses. Every course has at least one assignment and one final test. Marks on the assignments are counted towards the final grade.</p>
+  <!-- InstanceEndEditable -->
+<div class="clear"></div>
+</div>
+</div>
+</div></div>
+<div id="allfooter">
+
+
+<div id="subfootersection">
+<div id="subfooter">
+  <ul>
+ <li>
+<strong>Phone:¬†</strong>+64 3 364 2362<br />
+   <strong>Fax:¬†</strong>+64 3 364 2569<br />
+  <a href="mailto:admin@cosc.canterbury.ac.nz">admin@cosc.canterbury.ac.nz</a></li>
+ <li><strong>Computer Science and Software Engineering</strong><br />     
+   University of Canterbury<br />
+    Private Bag 4800, Christchurch<br />
+  New Zealand  </li>
+  
+  <li>
+    <strong>Follow us</strong><br />
+   <a href="http://www.facebook.com/pages/University-of-Canterbury/140904629326800"><img src="http://www.canterbury.ac.nz/brand/icons/32x32/facebook.png" alt="Facebook" /></a><a href="http://www.youtube.com/universitycanterbury"><img src="http://www.canterbury.ac.nz/brand/icons/32x32/youtube.png" alt="Youtube" /></a><a href="http://www.twitter.com/ucnz"><img src="http://www.canterbury.ac.nz/brand/icons/32x32/twitter.png" alt="twitter" /></a><a href="http://www.linkedin.com/company/university-of-canterbury"><img src="http://www.canterbury.ac.nz/brand/icons/32x32/LinkedIn.png" alt="Linked In" /></a></li>
+  
+ </ul>
+
+</div>
+</div>
+<div id="footersection">
+<div id="footer">
+  <span id="copyright">&#169; University of Canterbury</span>
+<ul> 
+   <li><a href="http://www.canterbury.ac.nz/help/legal.shtml">Copyright and Disclaimer</a></li>
+   <li><a href="http://www.canterbury.ac.nz/privacy">Privacy</a></li>
+  <li><a href="http://www.canterbury.ac.nz/help/contact/">Feedback</a></li>
+  <li><a href="http://www.canterbury.ac.nz/help/">Help and Accessibility</a></li>
+  <li><a href="http://www.canterbury.ac.nz/help/a-z.shtml">A-Z of University Websites</a></li>
+</ul>
+<!-- updated 12/09/2013 -->
+</div>
+</div>
+</div>
+</div>
+</body>
+<!-- InstanceEnd --></html>
+Ü≠F‰fÍ≠4[ÊøãÄ∫à¢’0T/ÎßnÑ˘·s˝!É)«Z5Hó)‡fÉQlü/‹ì∑…≥Kæ“ò∂ÃK[ıı¸ﬂw{Û…6?åÎc	Å∫Ω-ÕrÕÈ…ÀSbSÇ»¬◊m5l“kÀÖë¸<
+⁄aLc nê}Ñ`@Q	íÎá/ót:#W¥‡˘∏˜r…bqçïÉ®sq¥åCb
+˘¬\b[yõ√°◊h I€t.ﬁŒÈ¨Ñﬁ∞œÎ‚å6Õy'o∏æ⁄[√z•O™9{Ùﬂ∞,'fﬁ ¶(/®RˇÌÑÑËtéAÇáê0—„&Æ⁄9Q˜NƒC◊:&ùD :„d!R£/0∫=Rù q∂`–È%°∆PjTá(ù\ã·d÷Üÿ?å˝Ñ’+BG≈$¬ãêCŸ p(D´·z+rèç~9Ï≠D˝‚egb_ˆnµÎ∞[k

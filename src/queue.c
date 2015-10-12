@@ -60,6 +60,7 @@ void queue_free(Queue *queue) {
         handle_error("Error: there are still items left in queue");
     }
 
+    free(queue->data);
     free(queue);
 }
 
