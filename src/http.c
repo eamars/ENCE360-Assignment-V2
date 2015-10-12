@@ -10,6 +10,7 @@
 #include "http.h"
 
 #define BUF_SIZE 1024
+#define DL_SIZE 1024
 
 // HTTP request example
 const char *HTTP_REQ_GET =
@@ -54,7 +55,7 @@ Buffer* http_query(char *host, char *page, int port) {
   int client_fd;
   Buffer *buffer;
   char *request;
-  char strbuf[BUF_SIZE];
+  char strbuf[DL_SIZE];
   int sz;
 
   // prepare http request header
@@ -77,10 +78,10 @@ Buffer* http_query(char *host, char *page, int port) {
 
   // receive http response
   buffer = (Buffer *) calloc(1, sizeof(Buffer)); // allocate memory and fill with zeros
-  memset(strbuf, 0, BUF_SIZE);
+  memset(strbuf, 0, DL_SIZE);
 
   // read from socket
-  while ((sz = read(client_fd, strbuf, BUF_SIZE)) != 0)
+  while ((sz = read(client_fd, strbuf, DL_SIZE)) != 0)
   {
       if (sz < 0)
       {
@@ -100,7 +101,7 @@ Buffer* http_query(char *host, char *page, int port) {
           // increase the recorded data size
           buffer->length += sz;
       }
-      memset(strbuf, 0, BUF_SIZE);
+      memset(strbuf, 0, DL_SIZE);
   }
 
   close(client_fd);
